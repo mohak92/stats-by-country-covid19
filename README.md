@@ -1,1 +1,1 @@
-# stats-by-country-covid19
+# Stats by country covid-19
