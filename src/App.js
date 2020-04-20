@@ -59,10 +59,10 @@ function App() {
   return (
     <Grid container>
       <Grid style={{ height: '100vh', overflowY: 'auto' }} lg={6} sm={12} item>
-        <InffectedCountryList/>
+        <InffectedCountryList inffectedCountries={inffectedCountries} updatedAt={updatedAt}/>
       </Grid>
       <Grid style={{ height: '100vh' }} lg={6} sm={12} item>
-        <InffectedCountryMap/>
+        <InffectedCountryMap inffectedCountries={inffectedCountries}/>
       </Grid>
     </Grid>
   );
