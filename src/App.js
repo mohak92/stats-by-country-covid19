@@ -17,7 +17,7 @@ function App() {
         {
           headers: {
             'x-rapidapi-host': 'coronavirus-monitor.p.rapidapi.com',
-            'x-rapidapi-key': '30b396f453mshfda9bfeaaa03310p146f1ajsnafc956e2dc74',
+            'x-rapidapi-key': '',
           },
         },
       );
