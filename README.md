@@ -8,7 +8,6 @@ React application to track COVID-19 stats by country. And map.
 ## Built With
 * [React](https://reactjs.org/) - A Component Based JavaScript library for building user interfaces.
 * [Google Maps](https://www.npmjs.com/package/google-map-react) - A component written over the Google Maps API. Allows you to render any component on the Google Map.
-* [REST Countries](https://restcountries.eu/) - Get information about countries such as flag images, latitude and longitude via a RESTful API.
 * [Material-UI](https://material-ui.com/) - A React component library based on Material Design.
 * [Coronavirus monitor API](https://rapidapi.com/astsiatsko/api/coronavirus-monitor) - Online information about where coronavirus is currently active, how many cases in the world.
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Mark up language for layout & structuring pages. 
