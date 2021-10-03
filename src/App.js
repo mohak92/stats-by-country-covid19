@@ -3,6 +3,7 @@ import { Grid } from '@material-ui/core';
 
 import InffectedCountryList from './components/inffectedCountry/InffectedCountryList';
 import InffectedCountryMap from './components/inffectedCountry/InffectedCountryMap';
+import Countries from './assets/data/countriesV2.json';
 
 function App() {
 
@@ -16,17 +17,12 @@ function App() {
         {
           headers: {
             'x-rapidapi-host': 'coronavirus-monitor.p.rapidapi.com',
-            'x-rapidapi-key': '',
+            'x-rapidapi-key': '30b396f453mshfda9bfeaaa03310p146f1ajsnafc956e2dc74',
           },
         },
       );
 
-      let allCountriesResponse = await fetch('https://restcountries.eu/rest/v2/all');
-
-      let allCountries = [];
-      if (allCountriesResponse.ok) {
-        allCountries = await allCountriesResponse.json();
-      }
+      let allCountries = Countries;
 
       if (inffectedCountriesResponse.ok) {
         let { countries_stat, statistic_taken_at } = await inffectedCountriesResponse.json();
